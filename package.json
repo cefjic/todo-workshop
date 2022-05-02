@@ -1,7 +1,6 @@
 {
   "name": "todo-workshop",
   "version": "0.1.0",
-  "homepage": "https://cefjic.github.io/workshop-todo",
   "private": true,
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.1.18",
@@ -24,9 +23,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
