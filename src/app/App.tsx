@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div>
-      <h1 className="w-50 m-auto mt-4">Workshop todo-list</h1>
+      <h1 className="w-50 m-auto mt-4">Ma todo list</h1>
       <div>
         {tasks.map((task) => (
           <Task task={task} removeTask={removeTask} />
